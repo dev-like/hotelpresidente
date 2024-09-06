@@ -1,0 +1,56 @@
+footer{
+    padding: 56px 0 20px;
+}
+
+footer span{
+    color: #8f8f8f;
+    display: block;
+    line-height: 2;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+footer a.redesocial{
+    width: 60px;
+    height: 46px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 20px 20px;
+}
+
+footer a.redesocial img{
+    max-width: 100%;
+}
+
+div.copy{
+    color: #8f8f8f;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Cinzel';
+}
+
+div.copy .like{
+    display: block;
+    margin: 8px auto 0;
+}
+
+div.copy .like:hover{
+    animation: like-mini 1s 1;
+}
+
+@media all and (min-width:576px) {
+    div.copy br{
+        display: none;
+    }
+}
+
+@media all and (min-width:768px) {
+    div.copy .like{
+    }
+}
+
+@media all and (min-width:992px) {
+    div.copy .like{
+    }
+}

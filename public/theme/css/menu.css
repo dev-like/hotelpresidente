@@ -1,0 +1,183 @@
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    text-align: center;
+    padding: 22px 0;
+    transition: all ease .2s;
+}
+
+nav.flutuar{
+    position: fixed;
+    padding: 22px 0;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+nav .menu-icon{
+    float: left;
+    width: 28px;
+    height: 28px;
+    margin-top: 20px;
+    margin-left: 14px;
+    margin-right: -42px;
+    position: relative;
+}
+
+nav .menu-icon .menu-line{
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: all ease .2s;
+}
+
+nav.flutuar .menu-icon .menu-line{
+    background-color: #782C40;
+}
+
+nav .menu-icon .menu-line:nth-child(1){ top: 0px; }
+nav .menu-icon .menu-line:nth-child(2){ top: 8px; }
+nav .menu-icon .menu-line:nth-child(3){ top: 16px; }
+
+nav .menu-icon.active .menu-line:nth-child(1){
+    top: 8px;
+    width: 28px;
+    transform: rotate(90deg);
+}
+
+nav .menu-icon.active .menu-line:nth-child(2){
+    top: 6px;
+    width: 20px;
+    transform-origin: left top;
+    transform: rotate(-45deg);
+}
+
+nav .menu-icon.active .menu-line:nth-child(3){
+    top: 6px;
+    right: 0;
+    width: 20px;
+    transform-origin: right top;
+    transform: rotate(45deg);
+}
+
+nav .logo,
+nav .logo-flutuar{
+    width: 100px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+nav .logo,
+nav.flutuar .logo-flutuar{
+    display: block;
+}
+
+nav.flutuar .logo,
+nav .logo-flutuar{
+    display: none;
+}
+
+nav .fl-lf,
+nav .fl-rg{
+    display: none;
+}
+
+nav ul{
+    display: none;
+    list-style: none;
+    margin-top: 20px;
+    background-color: #751730;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+}
+
+nav.flutuar ul{
+    box-shadow: none;
+    background-color: #fff;
+}
+
+nav ul li a{
+    display: block;
+    padding: 16px 0;
+}
+
+nav a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    word-spacing: normal;
+}
+
+nav.flutuar a{
+    color: #782C40;
+}
+
+@media all and (min-width:576px) {
+}
+
+@media all and (min-width:768px) {
+    nav{
+        padding: 42px 0;
+    }
+
+    nav .menu-icon{
+        display: none;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    nav .fl-lf,
+    nav .fl-rg{
+        width: 280px;
+        display: block;
+        margin-top: 22px;
+        word-spacing: 20px;
+    }
+
+    nav .fl-lf{
+        float: left;
+        text-align: right;
+    }
+
+    nav .fl-rg{
+        float: right;
+        text-align: left;
+    }
+
+    nav.flutuar .fl-lf,
+    nav.flutuar .fl-rg{
+        margin-top: 24px;
+    }
+}
+
+@media all and (min-width:992px) {
+    nav .logo,
+    nav .logo-flutuar{
+        width: 193px;
+        margin: 0 auto;
+    }
+
+    nav.flutuar .logo,
+    nav.flutuar .logo-flutuar{
+        width: 100px;
+    }
+
+    nav .fl-lf,
+    nav .fl-rg{
+        width: 320px;
+        margin-top: 48px;
+        word-spacing: 60px;
+    }
+}
+
+@media all and (min-width:1200px) {
+    nav .fl-lf,
+    nav .fl-rg{
+        width: 420px;
+    }
+}

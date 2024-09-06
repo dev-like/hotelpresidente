@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "analytic-hotel-presidente",
+  "private_key_id": "779f3abbba7491f301c9637eb0dad980dd1c0c20",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCpWXI4cozgMlxb\n244nC7pbDuK2x7eIMgt7xwmTrdpH8McG2Z4djOeoumN8PIWg+wC4eq7mFwxS4DKG\nMFzN/Py0/Ci4kVoKwxBLUz+Ea9BItycSoEC/Q54crWjAZsMxlWXwNFH4AozZvi4I\nVor9Lpvo6hjnRN+ciM6URXBxvFSg1QLKG77OX0AnUUHCroxrSa1LGS8JziwvNtLQ\nucTFQju0NIaGoGRLi3G/NSJRIj2tjNn8mYOcIXd+qIx3SFMGujGz2pXR4CKFCaq5\nqMZCk0bMrFfEQGw8sWdvAlxb1+JhTPmaRox1rf9Z7sFhQ18eQzt+m6SuwDD5rjPv\nm2fjYkG7AgMBAAECggEADWTxN0y8Hrls+6j0Z9syHKSjQuCt//wxU1NtSvxrsNf2\n7fBFZMHxyrMfTkK9MPvZVT4C2lkFVQK9jEaD+JjjZe8xy1NXw1UlU0fc1LzwRugR\nk5QQOvB+r3b5u4oFM0VFQEfrGcod2NUFcAxkRt0qYLQvTw9v/kIF0M1jNOO379Z4\nF+idBMQz9N+jhEnkS5PbIwH4nUHXmmohtFxlUdJstQICXsRfSGxJWz45oW8n/N4Y\noN2QZhUhr3ZSFLySJJxMSyP4AlJWnl26QO8p2JEJd2/AovgQRgv+fwmwGim7fATc\nLNQuCQlUpOW/LU1/mi5qmKLdDMpCMkmgMiPEyJ//WQKBgQDnkzYqve7cKAtYI9UY\n6vc2YF1/XyfS0GdPxLdhqVqjvED6QIc1tu1P83Q8vK9n1w39/YmcBhYFDHTMYMkK\nX4NDnMOVDK82MMWQKYfEbVcfuFV7nHYfzyb+By9Z8sS4Cn65HQkESNn7/PLRXSFg\nJ4EYwMrgmmlPUxP5y07NhARqwwKBgQC7NhJaCjSL8qZfKpI0oew/HaV0r8nKoLs1\nMBtLUXQM2Ozi/A338YMab4sFc53OZ2TuXtCgUA+oDTRXQpe8jn/BsaKQjC5IrHR5\nDtYr2a+FKfXPWmcK3E22X9bOKnWvpe6dpj03tlRcvkhpD/olG1qBz0z3XFsUfjAF\nKR3DRUatqQKBgCg/H4TiKac9lmslHx4LiBd9PAKtCQDMk4f7iluA0W3vg+N6X4Vo\nW2ovx53etSV47MedztK9BAqwlYQHtikFXIzdq+g1oiXq6AscDKqIzkGHCeRH1wfE\nOuSfXw1k8eeCe2+0qiKCftAasCDO7MQHWZpxt1C9xVux9qDNQs7ZCON9AoGAXfD2\nKIRydb9fSOXd09dk6w7/VZxYT/tztW7cY2EOMNwxkn0UrVRdi0hppGStzUMI3Kxr\nV+aU1Kk7mIXsCkwfQ5zVjF8rYoBXOd/+DKcBcnrpxBEDH+oIfPl+mpmn0GodYLJo\niapOjvNU9pNz3GbrdbQGVSHc+l2Pzycgrjn3C3ECgYAWVTtHLTaxHG2rJ5nijZA1\ny9XLI1tfSCU/X3QrjkOqpMUejh0PMvBUPIxAyKchy3Ca59eUtUNGjxJ7T9x0eZjt\ncQ4xQT71TnvYS9IMqeSw3Cs0tMh2RCztv5bfzb/6DB+E/gX+UyOxn8oXGDMxtjAX\nvJq+ZIX/riLO5fVGpKCKrw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "analytichotelpresidente@analytic-hotel-presidente.iam.gserviceaccount.com",
+  "client_id": "117019921898350146205",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/analytichotelpresidente%40analytic-hotel-presidente.iam.gserviceaccount.com"
+}
